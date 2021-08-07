@@ -18,16 +18,6 @@
          include('step2a.php');
     } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '5') {
          include('step2a.php');
-    } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '6') {
-         include('step2a.php');
-    } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '7') {
-         include('step2a.php');
-    } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '8') {
-         include('step2a.php');
-    } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '9') {
-         include('step2a.php');
-    } elseif (isset($_POST['choice1']) && $_POST['choice1'] == '10') {
-         include('step2a.php');
     } else {
          include('error-state.php');
     }
